@@ -1,0 +1,21 @@
+.keyboard {
+    margin-top: 2em;
+    border: grey 2px solid;
+    border-radius: 8px;
+    padding: 0.5em;
+    width: 80%;
+    margin: auto;
+}
+
+.line {
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span {
+
+    &:hover {
+        background-color: #ff3333;
+    }
+}
