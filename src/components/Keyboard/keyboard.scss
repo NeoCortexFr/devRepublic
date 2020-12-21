@@ -3,7 +3,7 @@
     border: grey 2px solid;
     border-radius: 8px;
     padding: 0.5em;
-    width: 80%;
+    width: 900px;
     margin: auto;
 }
 
@@ -14,8 +14,28 @@
     justify-content: space-between;
 }
 span {
+    border: #555 solid 1px;
+    height: 32px;
+    width:  32px;
+    padding-top: 4px;
 
     &:hover {
         background-color: #ff3333;
     }
+}
+.first {
+    height: 25px;
+    width: 32px;
+    font-size: 0.7em;
+    padding-top: 4px;
+}
+
+.low {
+    font-size: 0.7em;
+}
+.space {
+    width: 50px;
+}
+.spaceBar {
+    width: 250px;
 }

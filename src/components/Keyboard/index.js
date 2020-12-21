@@ -16,26 +16,26 @@ import './keyboard.scss';
 const Keyboard = () => (
   <div className="keyboard">
     <div className="line">
-      <span>Echap</span>
-      <span>F1</span>
-      <span>F2</span>
-      <span>F3</span>
-      <span>F4</span>
-      <span>F5</span>
-      <span>F6</span>
-      <span>F7</span>
-      <span>F8</span>
-      <span>F9</span>
-      <span>F10</span>
-      <span>F11</span>
-      <span>F12</span>
-      <span>Fn Lock</span>
-      <span>Inser</span>
-      <span>Suppr</span>
-      <span><ArrowUpLeft /></span>
-      <span>Fin</span>
-      <span><ArrowUp /></span>
-      <span><ArrowDown /></span>
+      <span className="first">Echap</span>
+      <span className="first">F1</span>
+      <span className="first">F2</span>
+      <span className="first">F3</span>
+      <span className="first">F4</span>
+      <span className="first">F5</span>
+      <span className="first">F6</span>
+      <span className="first">F7</span>
+      <span className="first">F8</span>
+      <span className="first">F9</span>
+      <span className="first">F10</span>
+      <span className="first">F11</span>
+      <span className="first">F12</span>
+      <span className="low">Fn<br />Lock</span>
+      <span className="first">Inser</span>
+      <span className="first">Suppr</span>
+      <span className="first"><ArrowUpLeft /></span>
+      <span className="first">Fin</span>
+      <span className="first"><ArrowUp /></span>
+      <span className="first"><ArrowDown /></span>
     </div>
     <div className="line">
       <span>2</span>
@@ -51,8 +51,8 @@ const Keyboard = () => (
       <span>0</span>
       <span>)]</span>
       <span>+=</span>
-      <span>BackSpace</span>
-      <span>VerrNum</span>
+      <span className="space">BackSpace</span>
+      <span className="low">Verr<br />Num</span>
       <span>/</span>
       <span>*</span>
       <span>-</span>
@@ -71,7 +71,7 @@ const Keyboard = () => (
       <span>P</span>
       <span>^</span>
       <span>$£</span>
-      <span>Entrée</span>
+      <span className="low">Entrée</span>
       <span>7</span>
       <span>8</span>
       <span>9</span>
@@ -114,14 +114,14 @@ const Keyboard = () => (
       <span>1</span>
       <span>2</span>
       <span>3</span>
-      <span>Entrée</span>
+      <span className="low">Entrée</span>
     </div>
     <div className="line">
       <span>Ctrl</span>
       <span>Fn</span>
       <span><Command /></span>
       <span>Alt</span>
-      <span />
+      <span className="spaceBar" />
       <span>Alt Gr</span>
       <span><Book /></span>
       <span>Ctrl</span>
