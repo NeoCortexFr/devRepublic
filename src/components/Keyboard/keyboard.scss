@@ -19,10 +19,6 @@ span {
     height: 32px;
     width:  32px;
     padding-top: 4px;
-
-    &:hover {
-        background-color: #ff3333;
-    }
 }
 .first {
     height: 25px;
@@ -30,7 +26,10 @@ span {
     font-size: 0.7em;
     padding-top: 4px;
 }
-
+.carre {
+    font-size: 0.5em;
+    padding-top: 20px;
+}
 .low {
     font-size: 0.7em;
 }
@@ -59,4 +58,74 @@ span {
 }
 .shiftRight {
     width: 65px;
+}
+.arrow {
+    padding-bottom: 6px;
+}
+
+.red:hover {
+    background-color: rgba($color: red, $alpha: 0.5);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 70px red;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 80px red;
+  }
+}
+
+.yellow:hover {
+    background-color:rgba($color: yellow, $alpha: 0.5);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 70px yellow;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 80px yellow;
+  }
+}
+.green:hover {
+    background-color: rgba($color: green, $alpha: 0.5);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 70px green;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 80px green;
+  }
+}
+.blue:hover {
+    background-color:rgba($color: blue, $alpha: 0.5);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 70px blue;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 80px blue;
+  }
+}
+.purple:hover {
+    background-color: rgba($color: purple, $alpha: 0.5);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 70px purple;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 80px purple;
+  }
 }
