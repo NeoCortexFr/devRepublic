@@ -1,0 +1,10 @@
+.footer {
+    background-color: black;
+    color: white;
+
+    &_object {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
