@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Web = () => (
-  <div className="web">
+const Css = () => (
+  <div className="css">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula augue,
     hendrerit in arcu ut, ultricies mattis lacus. Vestibulum vestibulum feugiat viverra.
     Donec eu neque a mi cursus mattis vitae at lorem. Nullam eu auctor lorem, nec
@@ -22,4 +22,4 @@ const Web = () => (
     at dolor pretium eleifend.
   </div>
 );
-export default Web;
+export default Css;
