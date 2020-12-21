@@ -9,6 +9,7 @@ import {
   ArrowLeftCircle,
   ArrowDownCircle,
   ArrowRightCircle,
+  CornerDownLeft,
 } from 'react-feather';
 
 import './keyboard.scss';
@@ -16,7 +17,7 @@ import './keyboard.scss';
 const Keyboard = () => (
   <div className="keyboard">
     <div className="line">
-      <span className="first">Echap</span>
+      <span className="first low2">Echap</span>
       <span className="first">F1</span>
       <span className="first">F2</span>
       <span className="first">F3</span>
@@ -29,7 +30,7 @@ const Keyboard = () => (
       <span className="first">F10</span>
       <span className="first">F11</span>
       <span className="first">F12</span>
-      <span className="low">Fn<br />Lock</span>
+      <span className="first low2">Fn<br />Lock</span>
       <span className="first">Inser</span>
       <span className="first">Suppr</span>
       <span className="first"><ArrowUpLeft /></span>
@@ -51,14 +52,14 @@ const Keyboard = () => (
       <span>0</span>
       <span>)]</span>
       <span>+=</span>
-      <span className="space">BackSpace</span>
+      <span className="space low">Back</span>
       <span className="low">Verr<br />Num</span>
       <span>/</span>
       <span>*</span>
       <span>-</span>
     </div>
     <div className="line">
-      <span>Tab</span>
+      <span className="tab">Tab</span>
       <span>A</span>
       <span>Z</span>
       <span>E</span>
@@ -71,14 +72,14 @@ const Keyboard = () => (
       <span>P</span>
       <span>^</span>
       <span>$£</span>
-      <span className="low">Entrée</span>
+      <span className="low"><CornerDownLeft /></span>
       <span>7</span>
       <span>8</span>
       <span>9</span>
       <span>+</span>
     </div>
     <div className="line">
-      <span>Lock  </span>
+      <span className="lock">Lock</span>
       <span>Q</span>
       <span>S</span>
       <span>D</span>
@@ -91,13 +92,14 @@ const Keyboard = () => (
       <span>M</span>
       <span>%</span>
       <span>µ</span>
+      <span className="empty" />
       <span>4</span>
       <span>5</span>
       <span>6</span>
       <span />
     </div>
     <div className="line">
-      <span>Shift</span>
+      <span className="shift">Shift</span>
       <span>&gt;</span>
       <span>W</span>
       <span>X</span>
@@ -109,23 +111,23 @@ const Keyboard = () => (
       <span>;</span>
       <span>:</span>
       <span>!</span>
-      <span>Shift</span>
+      <span className="low shiftRight">Shift</span>
       <span><ArrowUpCircle /></span>
       <span>1</span>
       <span>2</span>
       <span>3</span>
-      <span className="low">Entrée</span>
+      <span className="low"><CornerDownLeft /></span>
     </div>
     <div className="line">
-      <span>Ctrl</span>
-      <span>Fn</span>
+      <span className="low">Ctrl</span>
+      <span className="low">Fn</span>
       <span><Command /></span>
-      <span>Alt</span>
+      <span className="low">Alt</span>
       <span className="spaceBar" />
-      <span>Alt Gr</span>
+      <span className="low">Alt Gr</span>
       <span><Book /></span>
-      <span>Ctrl</span>
-      <span>Fn</span>
+      <span className="low">Ctrl</span>
+      <span className="low">Fn</span>
       <span><ArrowLeftCircle /></span>
       <span><ArrowDownCircle /></span>
       <span><ArrowRightCircle /></span>

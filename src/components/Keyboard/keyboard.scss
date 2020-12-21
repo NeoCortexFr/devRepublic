@@ -15,6 +15,7 @@
 }
 span {
     border: #555 solid 1px;
+    border-radius: 5px;
     height: 32px;
     width:  32px;
     padding-top: 4px;
@@ -33,9 +34,29 @@ span {
 .low {
     font-size: 0.7em;
 }
+.low2 {
+    font-size: 0.6em;
+}
+.empty {
+    border: none;
+    width: 22px;
+}
 .space {
-    width: 50px;
+    width: 60px;
 }
 .spaceBar {
-    width: 250px;
+    width: 220px;
+}
+.tab {
+    width: 64px;
+}
+.lock {
+    width: 80px;
+}
+
+.shift {
+    width: 40px;
+}
+.shiftRight {
+    width: 65px;
 }
