@@ -1,13 +1,8 @@
 .header {
     background-color: black;
     color: white;
-    height: 200px;
     position: relative;
     text-align: center;
-    // border-bottom: white 1px solid;
-    // width: 80%;
-    // margin: auto;
-    height: 450px;
     border-bottom: 1px solid white;
 
     &_title {
@@ -42,14 +37,9 @@ section {
 }
 
 .message {
-    margin-top: 2em;
+    margin-top: 1.5em;
     font-size: 1.3em;
     color: blue;
     font-weight: bold;
-    border-bottom: 1px solid white;
     padding: 25px 0;
-}
-
-img {
-    height: 60px;
 }
