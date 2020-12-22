@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './cv.scss';
+
 const Cv = () => (
   <div className="cv">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula augue,

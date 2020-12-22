@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 
 import Nav from 'src/components/Nav';
 import Para from 'src/components/Para';
@@ -14,15 +15,7 @@ import './page.scss';
 
 const Page = () => (
   <div className="page">
-    <Nav />
-    <Para /><br />
-    <Accueil /><br />
-    <Blog /><br />
-    <Css /><br />
-    <Cv /><br />
-    <Tech /><br />
-    <Tutos /><br />
-    <Web /><br />
+
   </div>
 );
 

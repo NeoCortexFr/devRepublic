@@ -1,9 +1,9 @@
 .header {
-    background-color: black;
+    background-color: #003366;
     color: white;
     position: relative;
     text-align: center;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid #8f8f8f;
 
     &_title {
        font-size: 5rem;
@@ -39,7 +39,7 @@ section {
 .message {
     margin-top: 1.5em;
     font-size: 1.3em;
-    color: blue;
+    color: #8f8f8f;
     font-weight: bold;
     padding: 25px 0;
 }
