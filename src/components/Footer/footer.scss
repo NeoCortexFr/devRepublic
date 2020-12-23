@@ -1,0 +1,10 @@
+.footer {
+    background-color: #004070;
+    color: #8f8f8f;
+
+    &_object {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,17 @@
+.nav {
+    margin-top: 2em;
+
+    &_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+}
+button {
+    font-size: 1em;
+    background-color: #003366;
+    color: #8f8f8f;
+    border: none;
+}
+
