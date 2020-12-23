@@ -14,7 +14,8 @@ const Blog = () => (
       </article>
       <nav className="blog_nav">
         <ul>
-          <li>Titre 1</li>
+          <li className="blog_li">Titre 1</li>
+          <li className="blog_li">Titre 2</li>
         </ul>
       </nav>
     </div>
