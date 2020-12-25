@@ -1,25 +1,27 @@
 import React from 'react';
+import { Link, Route } from 'react-router-dom';
+
+import Flexbox from 'src/components/Flexbox';
+
+import './tutos.scss';
 
 const Tutos = () => (
   <div className="tutos">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula augue,
-    hendrerit in arcu ut, ultricies mattis lacus. Vestibulum vestibulum feugiat viverra.
-    Donec eu neque a mi cursus mattis vitae at lorem. Nullam eu auctor lorem, nec
-    lobortis risus. Cras nec elit commodo risus vestibulum varius. Fusce vitae odio
-    pulvinar felis convallis molestie. Nam sodales lorem id tortor ultricies blandit.
-    Vivamus felis libero, laoreet quis augue in, interdum dictum velit. Pellentesque blandit,
-    ante eu dictum cursus, ligula nisl iaculis augue, ac pretium ligula dolor in diam.
-    Proin id sodales metus. Nullam dapibus blandit risus a imperdiet. Sed mattis massa
-    at dolor pretium eleifend.<br />
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula augue,
-    hendrerit in arcu ut, ultricies mattis lacus. Vestibulum vestibulum feugiat viverra.
-    Donec eu neque a mi cursus mattis vitae at lorem. Nullam eu auctor lorem, nec
-    lobortis risus. Cras nec elit commodo risus vestibulum varius. Fusce vitae odio
-    pulvinar felis convallis molestie. Nam sodales lorem id tortor ultricies blandit.
-    Vivamus felis libero, laoreet quis augue in, interdum dictum velit. Pellentesque blandit,
-    ante eu dictum cursus, ligula nisl iaculis augue, ac pretium ligula dolor in diam.
-    Proin id sodales metus. Nullam dapibus blandit risus a imperdiet. Sed mattis massa
-    at dolor pretium eleifend.
+    <h2 className="tutos_h2">Tutoriaux</h2>
+    <h3 className="tutos_h3">Welcome sur les tutos de Dev'Republic</h3>
+    <div className="section">
+      <nav className="tutos_nav">
+        <ul>
+          <li className="tutos_li"><Link to="/tutos/flexbox">FlexBox</Link></li>
+          <li className="tutos_li">Titre 2</li>
+        </ul>
+      </nav>
+      <article className="tutos_content">
+        <Route path="/tutos/flexbox">
+          <Flexbox />
+        </Route>
+      </article>
+    </div>
   </div>
 );
 export default Tutos;
