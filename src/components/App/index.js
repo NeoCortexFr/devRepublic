@@ -20,8 +20,8 @@ import './app.scss';
 // == Composant
 const App = () => (
   <div className="app">
+    <Header />
     <Router>
-      <Header />
       <Nav />
       <Switch>
         <Route exact path="/"><Accueil /></Route>
@@ -29,11 +29,12 @@ const App = () => (
         <Route path="/tutos"><Tutos /></Route>
         <Route path="/web-tech"><Tech /></Route>
         <Route path="/cv-bien-oui-merci"><Cv /></Route>
-        <Route path="/blog" component={Blog} />
+        <Route path="/blog"><Blog /></Route>
         <Route path="/mes-realisations-web" component={Web} />
       </Switch>
-      <Footer />
     </Router>
+    <Footer />
+
   </div>
 );
 

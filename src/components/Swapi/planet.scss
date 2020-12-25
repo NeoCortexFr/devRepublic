@@ -1,0 +1,23 @@
+.planet {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: #003366;
+}
+
+.article {
+    color: black;
+    width: 30%;
+    border: thick double black;
+    margin: 16px auto;
+    padding: 16px 25px;
+    text-align: left;
+}
+
+.whiText {
+    color: silver;
+}
+.apiText {
+    font-weight: bold;
+}

@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link, Route } from 'react-router-dom';
+
+import Swapi from 'src/components/Swapi';
 
 import './blog.scss';
 
@@ -7,17 +10,17 @@ const Blog = () => (
     <h2 className="blog_h2">Blog</h2>
     <h3 className="blog_h3">Welcome sur le blog de Dev'Republic</h3>
     <div className="section">
-      <article className="blog_content">
-        <p>
-          Vous pouvez retrouver les articles via la navigation de gauche.
-        </p>
-      </article>
       <nav className="blog_nav">
         <ul>
-          <li className="blog_li">Titre 1</li>
+          <li className="blog_li"><Link to="/blog/swapi">Swapi</Link></li>
           <li className="blog_li">Titre 2</li>
         </ul>
       </nav>
+      <article className="blog_content">
+        <Route path="/blog/swapi">
+          <Swapi />
+        </Route>
+      </article>
     </div>
   </div>
 );
