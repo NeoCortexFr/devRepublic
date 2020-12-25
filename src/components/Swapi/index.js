@@ -15,6 +15,7 @@ const Swapi = () => {
       .then((response) => {
         setPlanets(response.data.results);
       })
+      // eslint-disable-next-line no-unused-vars
       .catch((error) => {
         setError(true);
       })
@@ -28,11 +29,14 @@ const Swapi = () => {
       <p className="swapi_p">
         Un exercice basé sur l'API Star Wars dispo <a href="https://swapi.dev/">ici</a>.
       </p>
+      {hasError && <h2 className="error">Une erreur est survenue lors de la connexion à l'API</h2>}
+      {!hasError && (
       <div className="swapi_content">
         {planets.map((planet) => (
           <Planet key={planet.name} {...planet} />
         ))}
       </div>
+      )}
     </div>
   );
 };
