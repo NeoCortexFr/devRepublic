@@ -40,7 +40,7 @@ const Accueil = () => (
         Et Je tombe sur un ovni, où, dès les premières lignes lues, on se sent comme à la maison.
         Comme si j'parlais à un pote. La même longueur d'onde, les mêmes principes, et une formation
         fullstack. Je veux bien entendu parler d'<a href="oclock.io">O'Clock</a>.
-        Avec son format full remote en 2020, c'est apréciable.
+        Avec son format full remote, en 2020, c'est appréciable.
       </p>
       <p>
         Et après un peu plus de 5 mois de formation, les bases sont là. Plus qu'à monter en

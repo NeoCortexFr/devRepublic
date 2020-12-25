@@ -1,25 +1,31 @@
 import React from 'react';
+import { Link, Route } from 'react-router-dom';
+
+import Ubuntu from 'src/components/Ubuntu';
+import Vscode from 'src/components/Vscode';
+
+import './tech.scss';
 
 const Tech = () => (
   <div className="tech">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula augue,
-    hendrerit in arcu ut, ultricies mattis lacus. Vestibulum vestibulum feugiat viverra.
-    Donec eu neque a mi cursus mattis vitae at lorem. Nullam eu auctor lorem, nec
-    lobortis risus. Cras nec elit commodo risus vestibulum varius. Fusce vitae odio
-    pulvinar felis convallis molestie. Nam sodales lorem id tortor ultricies blandit.
-    Vivamus felis libero, laoreet quis augue in, interdum dictum velit. Pellentesque blandit,
-    ante eu dictum cursus, ligula nisl iaculis augue, ac pretium ligula dolor in diam.
-    Proin id sodales metus. Nullam dapibus blandit risus a imperdiet. Sed mattis massa
-    at dolor pretium eleifend.<br />
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula augue,
-    hendrerit in arcu ut, ultricies mattis lacus. Vestibulum vestibulum feugiat viverra.
-    Donec eu neque a mi cursus mattis vitae at lorem. Nullam eu auctor lorem, nec
-    lobortis risus. Cras nec elit commodo risus vestibulum varius. Fusce vitae odio
-    pulvinar felis convallis molestie. Nam sodales lorem id tortor ultricies blandit.
-    Vivamus felis libero, laoreet quis augue in, interdum dictum velit. Pellentesque blandit,
-    ante eu dictum cursus, ligula nisl iaculis augue, ac pretium ligula dolor in diam.
-    Proin id sodales metus. Nullam dapibus blandit risus a imperdiet. Sed mattis massa
-    at dolor pretium eleifend.
+    <h2 className="tech_h2">Ressources</h2>
+    <h3 className="tech_h3">Welcome sur les ressources de Dev'Republic</h3>
+    <div className="section">
+      <nav className="tech_nav">
+        <ul>
+          <li className="tech_li"><Link to="/tech/ubuntu">Ubuntu</Link></li>
+          <li className="tech_li"><Link to="/tech/vscode">VsCode</Link></li>
+        </ul>
+      </nav>
+      <article className="tech_content">
+        <Route path="/tech/ubuntu">
+          <Ubuntu />
+        </Route>
+        <Route path="/tech/vscode">
+          <Vscode />
+        </Route>
+      </article>
+    </div>
   </div>
 );
 export default Tech;

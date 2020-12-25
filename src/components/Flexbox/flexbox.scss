@@ -1,0 +1,49 @@
+.flexbox {
+
+    &_articles-flex-content {
+        margin: 25px auto;
+        padding: 0 25px;
+    }
+    
+}
+
+.code, .code_css {
+    background-color: black;
+    color: green;
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    padding: 8px 16px;
+}
+
+.container {
+    display: flex;
+
+    &_two {
+        display: flex;
+        justify-content: space-around;
+    }
+    &_three {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_four {
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    &_five {
+        height: 200px;
+        width: 100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+.button {
+    background-color: black;
+    color: silver;
+    border-radius: 8px;
+}
