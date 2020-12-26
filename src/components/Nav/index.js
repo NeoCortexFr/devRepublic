@@ -9,7 +9,7 @@ const Nav = () => (
       <button type="button"><Link to="/">Accueil</Link></button>
       <button type="button"><Link to="/css">CSS</Link></button>
       <button type="button"><Link to="/tutos">Tutos</Link></button>
-      <button type="button"><Link to="/web-tech">Autres Tech</Link></button>
+      <button type="button"><Link to="/tech">Autres Tech</Link></button>
       <button type="button"><Link to="/cv-bien-oui-merci">Mon cv</Link></button>
       <button type="button"><Link to="/blog">Blog</Link></button>
       <button type="button"><Link to="/mes-realisations-web">Web</Link></button>

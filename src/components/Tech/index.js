@@ -8,13 +8,13 @@ import './tech.scss';
 
 const Tech = () => (
   <div className="tech">
-    <h2 className="tech_h2">Ressources</h2>
+    <h2 className="tech_h2">Technology</h2>
     <h3 className="tech_h3">Welcome sur les ressources de Dev'Republic</h3>
     <div className="section">
       <nav className="tech_nav">
         <ul>
           <li className="tech_li"><Link to="/tech/ubuntu">Ubuntu</Link></li>
-          <li className="tech_li"><Link to="/tech/vscode">VsCode</Link></li>
+          <li className="tech_li"><Link to="tech/vscode">Vscode</Link></li>
         </ul>
       </nav>
       <article className="tech_content">
