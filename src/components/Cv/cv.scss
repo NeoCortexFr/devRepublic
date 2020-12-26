@@ -1,4 +1,14 @@
 .cv {
     height: 100vh;
     background-color: #003366;
+
+    &_title {
+        text-align: center;
+        margin: 1.2em;
+
+        &-moi {
+            text-align: center;
+            font-weight: bold;
+        }
+    }
 }
