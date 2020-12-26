@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // == Import local
 import Header from 'src/components/Header';
-// import Page from 'src/components/Page';
 import Footer from 'src/components/Footer';
 import Nav from 'src/components/Nav';
 import Accueil from 'src/components/Accueil';
@@ -27,7 +26,7 @@ const App = () => (
         <Route exact path="/"><Accueil /></Route>
         <Route path="/css"><Css /></Route>
         <Route path="/tutos"><Tutos /></Route>
-        <Route path="/web-tech"><Tech /></Route>
+        <Route path="/tech"><Tech /></Route>
         <Route path="/cv-bien-oui-merci"><Cv /></Route>
         <Route path="/blog"><Blog /></Route>
         <Route path="/mes-realisations-web" component={Web} />
