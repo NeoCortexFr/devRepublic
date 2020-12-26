@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, Route } from 'react-router-dom';
 
 import Ubuntu from 'src/components/Ubuntu';
+import Vscode from 'src/components/Vscode';
 
 import './tech.scss';
 
@@ -13,12 +14,15 @@ const Tech = () => (
       <nav className="tech_nav">
         <ul>
           <li className="tech_li"><Link to="/tech/ubuntu">Ubuntu</Link></li>
-          <li className="tech_li">Titre 2</li>
+          <li className="tech_li"><Link to="tech/vscode">Vscode</Link></li>
         </ul>
       </nav>
       <article className="tech_content">
         <Route path="/tech/ubuntu">
           <Ubuntu />
+        </Route>
+        <Route path="/tech/vscode">
+          <Vscode />
         </Route>
       </article>
     </div>
