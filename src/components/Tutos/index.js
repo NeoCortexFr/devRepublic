@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, Route } from 'react-router-dom';
 
 import Flexbox from 'src/components/Flexbox';
+import Compteur from 'src/components/Compteur';
 
 import './tutos.scss';
 
@@ -13,12 +14,15 @@ const Tutos = () => (
       <nav className="tutos_nav">
         <ul>
           <li className="tutos_li"><Link to="/tutos/flexbox">FlexBox</Link></li>
-          <li className="tutos_li">Titre 2</li>
+          <li className="tutos_li"><Link to="/tutos/compteur">Compteur</Link></li>
         </ul>
       </nav>
       <article className="tutos_content">
         <Route path="/tutos/flexbox">
           <Flexbox />
+        </Route>
+        <Route path="/tutos/compteur">
+          <Compteur />
         </Route>
       </article>
     </div>
