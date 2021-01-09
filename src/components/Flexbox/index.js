@@ -30,19 +30,19 @@ const Flexbox = () => (
         Voici le code de départ:
       </p>
       <pre className="code">
-        &lt;button type="button" className="button"&gt;Bouton 1&lt;/button&gt;
+        &lt;button type="button" class="button"&gt;Bouton 1&lt;/button&gt;
       </pre>
       <pre className="code">
-        &lt;button type="button" className="button"&gt;Bouton 2&lt;/button&gt;
+        &lt;button type="button" class="button"&gt;Bouton 2&lt;/button&gt;
       </pre>
       <pre className="code">
-        &lt;button type="button" className="button"&gt;Bouton 3&lt;/button&gt;
+        &lt;button type="button" class="button"&gt;Bouton 3&lt;/button&gt;
       </pre>
       <pre className="code">
-        &lt;button type="button" className="button"&gt;Bouton 4&lt;/button&gt;
+        &lt;button type="button" class="button"&gt;Bouton 4&lt;/button&gt;
       </pre>
       <pre className="code">
-        &lt;button type="button" className="button"&gt;Bouton 5&lt;/button&gt;
+        &lt;button type="button" class="button"&gt;Bouton 5&lt;/button&gt;
       </pre>
       <p className="flexbox_articles-flex-content">
         Vu que les boutons sont collé, il serait sympa de les écarter un peu, qu'ils prennent toute
