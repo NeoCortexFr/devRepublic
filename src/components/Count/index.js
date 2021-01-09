@@ -6,6 +6,8 @@ import './count.scss';
 const Count = () => {
   // eslint-disable-next-line prefer-const
   let [count, setCount] = useState(0);
+  let [jaime, setJaime] = useState(0);
+  const [jaimePas, setJaimePas] = useState(0);
   return (
     <div className="count">
       <h2 className="count_title">Le compteur de click</h2>
@@ -27,7 +29,11 @@ const Count = () => {
       <p className="count_state">
         Vous pouvez aller voir le code dans la partie <Link to="/tutos/compteur">Tutos</Link>
       </p>
-
+      <h2 className="count_title">J'aime / J'aime pas</h2>
+      <p className="count_content">
+        <button type="button" className="count_button" onClick={() => setJaime(jaime + 1)}>J'aime {jaime}</button>
+        <button type="button" className="count_button" onClick={() => setJaimePas(jaimePas + 1)}>J'aime Pas {jaimePas}</button>
+      </p>
     </div>
   );
 };
