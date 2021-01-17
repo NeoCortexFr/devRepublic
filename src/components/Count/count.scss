@@ -1,0 +1,29 @@
+.count {
+
+    text-align: center;
+
+    &_title {
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 1.2em 0;
+    }
+    &_content {
+        color: brown;
+
+        &-bold {
+            font-weight: bold;
+            border: none;
+        }
+    }
+    &_button {
+        border: black solid 1px;
+        margin: 1.2em;
+        border-radius: 5px;
+    }
+    &_state {
+        text-align: left;
+        width: 75%;
+        margin: auto;
+    }
+}
