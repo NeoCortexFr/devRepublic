@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, Route } from 'react-router-dom';
 
 import Flexbox from 'src/components/Flexbox';
-import Compteur from 'src/components/Compteur';
 
 import './tutos.scss';
 
@@ -20,9 +19,6 @@ const Tutos = () => (
       <article className="tutos_content">
         <Route path="/tutos/flexbox">
           <Flexbox />
-        </Route>
-        <Route path="/tutos/compteur">
-          <Compteur />
         </Route>
       </article>
     </div>
