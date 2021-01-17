@@ -1,33 +1,30 @@
 .count {
 
+
+    text-align: center;
+
     &_title {
+        text-align: center;
         font-size: 1.2em;
         font-weight: bold;
-        margin-bottom: 1.2em;
+        margin: 1.2em 0;
     }
-
     &_content {
-        margin-bottom: 1.2em;
-        font-size: 1em;
-    }
+        color: brown;
 
-    &_buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-    &_button {
-        border: 1px silver solid;
-        padding: 0.5em;
-    
-        &:active {
-            background-color: brown;
-            color: white;
+        &-bold {
+            font-weight: bold;
+            border: none;
         }
     }
+    &_button {
+        border: black solid 1px;
+        margin: 1.2em;
+        border-radius: 5px;
+    }
     &_state {
-        width: 500px;
-        margin: 1.2em auto;
+        text-align: left;
+        width: 75%;
+        margin: auto;
     }
 }
