@@ -6,12 +6,14 @@ import './count.scss';
 const Count = () => {
   // eslint-disable-next-line prefer-const
   let [count, setCount] = useState(0);
+
   const [jaime, setJaime] = useState(0);
   const [jaimePas, setJaimePas] = useState(0);
   return (
     <div className="count">
       <h2 className="count_title">Le compteur de click</h2>
       <p className="count_content">
+
         Vous avez cliquez <span className="count_content-bold">{count}</span> fois.
       </p>
       <p className="count_buttons">
